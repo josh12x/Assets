@@ -1,0 +1,35 @@
+[
+	{
+		"Type" : 0,
+		"ID" : 0,
+		"Title" : "Garbage",
+		"SpriteName" : "Items/CopperCoin",
+		"DropModel" : "Items/CopperCoin",
+		"Value" : 1,
+		"StackSize" : 1,
+		"MaxStackSize" : 100,
+		"Description" : "The common currency of the land."
+	},
+
+	{
+		"Type" : 1,
+		"ID" : 1,
+		"Title" : "Branch",
+		"SpriteName" : "Items/TreeBranch",
+		"DropModel" : "Items/TreeBranch",
+		"Value" : 6,
+		"StackSize" : 1,
+		"MaxStackSize" : 1,
+		"Description" : "A tree branch, seems to be usable as a weapon and could maybe be used to build better things using it as a base",
+		"MainDamageCount" : 3,
+		"Melee" : 1.2,
+				"Magic" : 1.5,
+						"Ranged" : 1.7,
+		"EquipPrefab" : "Weapons/TreeBranch",
+		"Range" : 1.0,
+		"AttackSpeed" : 1.5,
+		"ComponentCount" : 1,
+		"0ComponentType" : "Wood",
+		"0ComponentAmount" : 1
+	}
+]
